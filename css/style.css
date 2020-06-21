@@ -1,0 +1,96 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+.overflow-hidden {
+    overflow: hidden
+}
+
+.top-buffer {
+    margin-top: 20px
+}
+
+.spaceonbottom {
+    margin-bottom: 15px
+}
+
+.spaceontop {
+    margin-top: 15px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.carousel-item.active {
+    display: block !important
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+h4 {
+    font-family: Prompt, sans-serif
+}
+
+body {
+    font-family: Prompt, sans-serif
+}
+
+a.addfontsizeplus2 {
+    font-size: x-large
+}
+
+.centertext {
+    text-align: center
+}
+
+.centerimg {
+    text-align: center;
+    display: block
+}
+
+@font-face {
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Prompt'), local('Prompt-Regular'), url(https://fonts.gstatic.com/s/prompt/v4/-W__XJnvUD7dzB2KYNoY.ttf) format('truetype')
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 300px
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: 0 0 !important;
+    height: 200px;
+    width: 300px
+}
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px)
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
