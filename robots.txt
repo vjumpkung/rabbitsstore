@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /DTG/
+Disallow: /DST/
+Disallow: /embroidery/
+Disallow: /blockscreen/
+
+Sitemap: https://www.rabbitsstore.com/sitemap.xml
